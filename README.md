@@ -55,7 +55,7 @@ $ cd TianQiFromBeijing
 ### 1. 下载源数据集
 
 - 将下载的数据集进行重命名简化并拷贝至项目```data```文件夹下，如下图：
-- ![img](./aimages/ShortCut_1.png)
+- ![img](./images/ShortCut_1.png)
 - 部分源数据展示
   ```angular2
     "No","year","month","day","hour","PM2.5","PM10","SO2","NO2","CO","O3","TEMP","PRES","DEWP","RAIN","wd","WSPM","station"
@@ -95,7 +95,7 @@ $ cd TianQiFromBeijing
                  CO) + ',' + str(O3) + '\n')
   ```
  -处理后```data```目录下文件如图所示
- - ![img](./aimages/ShortCut_2.png)
+ - ![img](./images/ShortCut_2.png)
  
  -部分处理后的数据展示
  ```angular2
