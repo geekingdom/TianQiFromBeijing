@@ -141,13 +141,13 @@ $ cd TianQiFromBeijing
 
 ### 4. 部分已实现成果展示
 - 全年走势图
-- ![img](./images/ShortCut_4.png)
+![img](./images/ShortCut_4.png)
 - 月均走势图
-- ![img](./images/ShortCut_5.png)
+![img](./images/ShortCut_5.png)
 - 季度箱行图
-- ![img](./images/ShortCut_6.png)
+![img](./images/ShortCut_6.png)
 - 指数日历图
-- ![img](./images/ShortCut_7.png)
+![img](./images/ShortCut_7.png)
 
 ## Author
 
