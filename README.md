@@ -4,9 +4,9 @@
 
 项目简介：对2013年3月至2017年2月北京市12个地点的空气监测数据进行分析处理。
 
-数据来源：https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data
+数据集来源：https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data
 
-数据简介：
+数据集简介：
 
 Data Set Information:
 
@@ -44,7 +44,7 @@ $ git clone https://github.com/geekingdom/TianQiFromBeijing.git
 $ cd TianQiFromBeijing
 ```
 
-## Requirements
+## Requirements | 环境及编辑器
 
 - python==3.7.4
 - pandas==0.25.1
@@ -96,7 +96,7 @@ $ cd TianQiFromBeijing
                  CO) + ',' + str(O3) + '\n')
   ```
  -处理后```data```目录下文件如图所示
- - ![img](./images/ShortCut_2.png)
+ ![img](./images/ShortCut_2.png)
  
  -部分处理后的数据展示
  ```angular2
@@ -137,7 +137,7 @@ $ cd TianQiFromBeijing
 ```
 
 - 将生成的```html```文件存入```assets```目录下对应文件夹
-- ![img](./images/ShortCut_3.png)
+![img](./images/ShortCut_3.png)
 
 ### 4. 部分已实现成果展示
 - 全年走势图
