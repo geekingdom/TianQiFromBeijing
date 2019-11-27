@@ -124,6 +124,31 @@ $ cd TianQiFromBeijing
   
 ### 3. 利用pandas和pyecharts对数据进行可视化
 
+- 将各地点每年各种空气质量因素进行统计并绘制各种类型图表进行展示
+```python
+   df = pd.read_csv('./data/' + city + '/' + city + '_' + year + '.csv', header=None,
+                     names=["Date", "PM25", "PM10", "SO2", "NO2", "CO", "O3"])
+   attr = df['Date']
+   v1 = df[key_word]
+   line = Line(year + dic[city] + key_word + "全年走势图", title_pos='center', title_top='18', width=800, height=400)
+   line.add("", attr, v1, mark_line=['average'], is_fill=True, area_color="#000", area_opacity=0.3,
+            mark_point=["max", "min"], mark_point_symbol="circle", mark_point_symbolsize=25)
+   line.render("./assets/"+city+"/" + key_word + "/" + year + "/" + year + "年"+dic[city]+ key_word + "全年走势图.html")
+```
+
+- 将生成的```html```文件存入```assets```目录下对应文件夹
+- ![img](./images/ShortCut_3.png)
+
+### 4. 部分已实现成果展示
+- 全年走势图
+- ![img](./images/ShortCut_4.png)
+- 月均走势图
+- ![img](./images/ShortCut_5.png)
+- 季度箱行图
+- ![img](./images/ShortCut_6.png)
+- 指数日历图
+- ![img](./images/ShortCut_7.png)
+
 ## Author
 
-- Zhixing TU @2019-11-27
+- Zhixing Tu @2019-11-27
