@@ -50,6 +50,7 @@ $ cd TianQiFromBeijing
 - pandas==0.25.1
 - csv==1.0
 - pyecharts==0.5.5
+- PyCharm
 
 ## Details | 项目流程简介
 
