@@ -50,6 +50,12 @@ $ cd TianQiFromBeijing
 - pandas==0.25.1
 - csv==1.0
 - pyecharts==0.5.5
+- pip install echarts-countries-pypkg
+- pip install echarts-china-provinces-pypkg
+- pip install echarts-china-cities-pypkg
+- pip install echarts-china-counties-pypkg
+- pip install echarts-china-misc-pypkg
+- pip install echarts-united-kingdom-pypkg
 - PyCharm
 
 ## Details | 项目流程简介
@@ -149,6 +155,8 @@ $ cd TianQiFromBeijing
 ![img](./images/ShortCut_6.png)
 - 指数日历图
 ![img](./images/ShortCut_7.png)
+- 全年热力图
+![img](./images/ShortCut_8.png)
 
 ## Author
 
